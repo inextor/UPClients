@@ -18,7 +18,7 @@ export class ListProductsComponent implements OnInit
 			{
 				return response.json();
 			})
-			then((response)=>
+			.then((response)=>
 			{
 				this.item_info_list = response.data;
 			});
