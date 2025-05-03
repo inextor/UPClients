@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common'
 })
 export class ListProductsComponent implements OnInit
 {
-    item_info_list:Object[] = [];
+    item_info_list:any[] = [];
 
 		ngOnInit(): void
 		{
